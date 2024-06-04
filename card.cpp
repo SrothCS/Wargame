@@ -19,4 +19,5 @@ void Card::display() const{
 int Card::compare(const Card& other) const { 
  return Card::rankValues[rank] - Card::rankValues[other.rank];
 }
+#testing github
 
